@@ -1,0 +1,6 @@
+__pycache__
+build
+data
+out
+.DS_Store
+.vscode
