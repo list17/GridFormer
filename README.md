@@ -1,16 +1,14 @@
 # GridFormer: Point-Grid Transformer for Surface Reconstruction
 [**Paper**]() <br>
 
-<div style="text-align: center">
+<div style="text-align: center; display: flex; align-items:center; flex-direction:column; font-weight:bold;">
 <img src="media/overview.png" width="800"/>
 <div>Overview of our method.</div>
 </div>
 
-This repository contains the implementation of the paper:
-
-GridFormer: Point-Grid Transformer for Surface Reconstruction
-
-If you find our code or paper useful, please consider citing
+This repository contains the implementation of the paper:<div style="font-weight:bold">GridFormer: Point-Grid Transformer for Surface Reconstruction</div>
+  
+If you find our code or paper useful, please consider citing:
 ```bibtex
 @inproceedings{li2024GridFormer,
       title={GridFormer: Point-Grid Transformer for Surface Reconstruction},
@@ -93,6 +91,9 @@ For evaluation of the models, we provide the script `eval_meshes.py`. You can ru
 python eval_meshes.py CONFIG.yaml
 ```
 The script takes the meshes generated in the previous step and evaluates them using a standardized protocol. The output will be written to `.pkl/.csv` files in the corresponding generation folder which can be processed using [pandas](https://pandas.pydata.org/).
+
+### Pretrained models
+We provide the pre-trained models for ShapeNet 3k with noise and Synthetic Rooms 10k with noise. You can download the models from the [link](https://drive.google.com/file/d/1LCujX8xhzBuMGFQzcuG2UgiuVQ5x-jbf/view?usp=sharing).
 
 ### Acknowledgement 
 The code is largely based on [ConvONet](https://github.com/autonomousvision/convolutional_occupancy_networks) and [ALTO](https://github.com/wzhen1/ALTO). Many thanks to the authors for opensourcing the codebase. 
