@@ -1,5 +1,5 @@
 # GridFormer: Point-Grid Transformer for Surface Reconstruction
-[**Paper**]() <br>
+[**Paper**](https://arxiv.org/abs/2401.02292) <br>
 
 <div style="text-align: center; display: flex; align-items:center; flex-direction:column; font-weight:bold;">
 <img src="media/overview.png" width="800"/>
