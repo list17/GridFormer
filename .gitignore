@@ -1,6 +1,6 @@
 __pycache__
 build
-data
+/data/
 out
 .DS_Store
 .vscode
